@@ -7,7 +7,7 @@
   "authors": [
     "hiscorginess"
   ],
-  "license": "MPL 2.0",
+  "license": "MPL-2.0",
   "icon": "assets/wherearemytms/logo.png",
   "environment": "*",
   "entrypoints": {
@@ -21,14 +21,13 @@
       "dev.reyaan.wherearemytms.fabric.client.WAMTClient"
     ]
   },
-	"mixins": [
-	],
+  "mixins": [],
   "depends": {
-    "java": ">=17",
-    "minecraft": "1.20.1",
-    "fabricloader": ">=0.14.9",
-    "fabric": "*",
-    "cobblemon": ">=1.4.0",
-    "fabric-language-kotlin": "*"
+    "java": ">=21",
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "cobblemon": ">=1.7.3"
   }
 }
